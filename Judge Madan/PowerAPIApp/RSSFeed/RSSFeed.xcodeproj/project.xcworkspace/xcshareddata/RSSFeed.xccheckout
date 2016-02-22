@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>94B0B480-23CB-4231-9081-12D40A16C863</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RSSFeed</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>927543736F20BB806C7A2C84A02D00E065598B88</key>
+		<string>https://github.com/Pat1804/ISBACE_IOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RSSFeed/RSSFeed.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>927543736F20BB806C7A2C84A02D00E065598B88</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Pat1804/ISBACE_IOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>927543736F20BB806C7A2C84A02D00E065598B88</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>927543736F20BB806C7A2C84A02D00E065598B88</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ISBACE_IOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

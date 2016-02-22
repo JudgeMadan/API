@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE152B9C1C7A41A700FE1C90 /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE152B961C7A41A700FE1C90 /* AEXML.swift */; settings = {ASSET_TAGS = (); }; };
+		FE152B9D1C7A41A700FE1C90 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE152B971C7A41A700FE1C90 /* Assignment.swift */; settings = {ASSET_TAGS = (); }; };
+		FE152B9E1C7A41A700FE1C90 /* Packager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE152B981C7A41A700FE1C90 /* Packager.swift */; settings = {ASSET_TAGS = (); }; };
+		FE152B9F1C7A41A700FE1C90 /* PowerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE152B991C7A41A700FE1C90 /* PowerAPI.swift */; settings = {ASSET_TAGS = (); }; };
+		FE152BA01C7A41A700FE1C90 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE152B9A1C7A41A700FE1C90 /* Section.swift */; settings = {ASSET_TAGS = (); }; };
+		FE152BA11C7A41A700FE1C90 /* SoapClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE152B9B1C7A41A700FE1C90 /* SoapClient.swift */; settings = {ASSET_TAGS = (); }; };
+		FE7DEFDE1C48662A00A02AFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7DEFDD1C48662A00A02AFE /* AppDelegate.swift */; };
+		FE7DEFE01C48662A00A02AFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7DEFDF1C48662A00A02AFE /* ViewController.swift */; };
+		FE7DEFE31C48662A00A02AFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7DEFE11C48662A00A02AFE /* Main.storyboard */; };
+		FE7DEFE51C48662A00A02AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE7DEFE41C48662A00A02AFE /* Assets.xcassets */; };
+		FE7DEFE81C48662A00A02AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE7DEFE61C48662A00A02AFE /* LaunchScreen.storyboard */; };
+		FE7DEFF31C48662A00A02AFE /* PowerAPIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7DEFF21C48662A00A02AFE /* PowerAPIAppTests.swift */; };
+		FE7DEFFE1C48662A00A02AFE /* PowerAPIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7DEFFD1C48662A00A02AFE /* PowerAPIAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE7DEFEF1C48662A00A02AFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7DEFD21C48662A00A02AFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE7DEFD91C48662A00A02AFE;
+			remoteInfo = PowerAPIApp;
+		};
+		FE7DEFFA1C48662A00A02AFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7DEFD21C48662A00A02AFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE7DEFD91C48662A00A02AFE;
+			remoteInfo = PowerAPIApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE152B961C7A41A700FE1C90 /* AEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AEXML.swift; path = PowerAPIApp/API/AEXML.swift; sourceTree = "<group>"; };
+		FE152B971C7A41A700FE1C90 /* Assignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Assignment.swift; path = PowerAPIApp/API/Assignment.swift; sourceTree = "<group>"; };
+		FE152B981C7A41A700FE1C90 /* Packager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Packager.swift; path = PowerAPIApp/API/Packager.swift; sourceTree = "<group>"; };
+		FE152B991C7A41A700FE1C90 /* PowerAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PowerAPI.swift; path = PowerAPIApp/API/PowerAPI.swift; sourceTree = "<group>"; };
+		FE152B9A1C7A41A700FE1C90 /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Section.swift; path = PowerAPIApp/API/Section.swift; sourceTree = "<group>"; };
+		FE152B9B1C7A41A700FE1C90 /* SoapClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoapClient.swift; path = PowerAPIApp/API/SoapClient.swift; sourceTree = "<group>"; };
+		FE7DEFDA1C48662A00A02AFE /* PowerAPIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerAPIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7DEFDD1C48662A00A02AFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE7DEFDF1C48662A00A02AFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE7DEFE21C48662A00A02AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE7DEFE41C48662A00A02AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE7DEFE71C48662A00A02AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE7DEFE91C48662A00A02AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE7DEFEE1C48662A00A02AFE /* PowerAPIAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerAPIAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7DEFF21C48662A00A02AFE /* PowerAPIAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerAPIAppTests.swift; sourceTree = "<group>"; };
+		FE7DEFF41C48662A00A02AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE7DEFF91C48662A00A02AFE /* PowerAPIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerAPIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7DEFFD1C48662A00A02AFE /* PowerAPIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerAPIAppUITests.swift; sourceTree = "<group>"; };
+		FE7DEFFF1C48662A00A02AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE7DEFD71C48662A00A02AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7DEFEB1C48662A00A02AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7DEFF61C48662A00A02AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE7DEFD11C48662A00A02AFE = {
+			isa = PBXGroup;
+			children = (
+				FE152B991C7A41A700FE1C90 /* PowerAPI.swift */,
+				FE152B9B1C7A41A700FE1C90 /* SoapClient.swift */,
+				FE152B981C7A41A700FE1C90 /* Packager.swift */,
+				FE152B9A1C7A41A700FE1C90 /* Section.swift */,
+				FE152B971C7A41A700FE1C90 /* Assignment.swift */,
+				FE152B961C7A41A700FE1C90 /* AEXML.swift */,
+				FE7DEFDC1C48662A00A02AFE /* PowerAPIApp */,
+				FE7DEFF11C48662A00A02AFE /* PowerAPIAppTests */,
+				FE7DEFFC1C48662A00A02AFE /* PowerAPIAppUITests */,
+				FE7DEFDB1C48662A00A02AFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE7DEFDB1C48662A00A02AFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE7DEFDA1C48662A00A02AFE /* PowerAPIApp.app */,
+				FE7DEFEE1C48662A00A02AFE /* PowerAPIAppTests.xctest */,
+				FE7DEFF91C48662A00A02AFE /* PowerAPIAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE7DEFDC1C48662A00A02AFE /* PowerAPIApp */ = {
+			isa = PBXGroup;
+			children = (
+				FE7DEFDD1C48662A00A02AFE /* AppDelegate.swift */,
+				FE7DEFDF1C48662A00A02AFE /* ViewController.swift */,
+				FE7DEFE11C48662A00A02AFE /* Main.storyboard */,
+				FE7DEFE41C48662A00A02AFE /* Assets.xcassets */,
+				FE7DEFE61C48662A00A02AFE /* LaunchScreen.storyboard */,
+				FE7DEFE91C48662A00A02AFE /* Info.plist */,
+			);
+			path = PowerAPIApp;
+			sourceTree = "<group>";
+		};
+		FE7DEFF11C48662A00A02AFE /* PowerAPIAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE7DEFF21C48662A00A02AFE /* PowerAPIAppTests.swift */,
+				FE7DEFF41C48662A00A02AFE /* Info.plist */,
+			);
+			path = PowerAPIAppTests;
+			sourceTree = "<group>";
+		};
+		FE7DEFFC1C48662A00A02AFE /* PowerAPIAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE7DEFFD1C48662A00A02AFE /* PowerAPIAppUITests.swift */,
+				FE7DEFFF1C48662A00A02AFE /* Info.plist */,
+			);
+			path = PowerAPIAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE7DEFD91C48662A00A02AFE /* PowerAPIApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7DF0021C48662A00A02AFE /* Build configuration list for PBXNativeTarget "PowerAPIApp" */;
+			buildPhases = (
+				FE7DEFD61C48662A00A02AFE /* Sources */,
+				FE7DEFD71C48662A00A02AFE /* Frameworks */,
+				FE7DEFD81C48662A00A02AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PowerAPIApp;
+			productName = PowerAPIApp;
+			productReference = FE7DEFDA1C48662A00A02AFE /* PowerAPIApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE7DEFED1C48662A00A02AFE /* PowerAPIAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7DF0051C48662A00A02AFE /* Build configuration list for PBXNativeTarget "PowerAPIAppTests" */;
+			buildPhases = (
+				FE7DEFEA1C48662A00A02AFE /* Sources */,
+				FE7DEFEB1C48662A00A02AFE /* Frameworks */,
+				FE7DEFEC1C48662A00A02AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE7DEFF01C48662A00A02AFE /* PBXTargetDependency */,
+			);
+			name = PowerAPIAppTests;
+			productName = PowerAPIAppTests;
+			productReference = FE7DEFEE1C48662A00A02AFE /* PowerAPIAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE7DEFF81C48662A00A02AFE /* PowerAPIAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7DF0081C48662A00A02AFE /* Build configuration list for PBXNativeTarget "PowerAPIAppUITests" */;
+			buildPhases = (
+				FE7DEFF51C48662A00A02AFE /* Sources */,
+				FE7DEFF61C48662A00A02AFE /* Frameworks */,
+				FE7DEFF71C48662A00A02AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE7DEFFB1C48662A00A02AFE /* PBXTargetDependency */,
+			);
+			name = PowerAPIAppUITests;
+			productName = PowerAPIAppUITests;
+			productReference = FE7DEFF91C48662A00A02AFE /* PowerAPIAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE7DEFD21C48662A00A02AFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ramicaza;
+				TargetAttributes = {
+					FE7DEFD91C48662A00A02AFE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					FE7DEFED1C48662A00A02AFE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FE7DEFD91C48662A00A02AFE;
+					};
+					FE7DEFF81C48662A00A02AFE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FE7DEFD91C48662A00A02AFE;
+					};
+				};
+			};
+			buildConfigurationList = FE7DEFD51C48662A00A02AFE /* Build configuration list for PBXProject "PowerAPIApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE7DEFD11C48662A00A02AFE;
+			productRefGroup = FE7DEFDB1C48662A00A02AFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE7DEFD91C48662A00A02AFE /* PowerAPIApp */,
+				FE7DEFED1C48662A00A02AFE /* PowerAPIAppTests */,
+				FE7DEFF81C48662A00A02AFE /* PowerAPIAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE7DEFD81C48662A00A02AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7DEFE81C48662A00A02AFE /* LaunchScreen.storyboard in Resources */,
+				FE7DEFE51C48662A00A02AFE /* Assets.xcassets in Resources */,
+				FE7DEFE31C48662A00A02AFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7DEFEC1C48662A00A02AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7DEFF71C48662A00A02AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE7DEFD61C48662A00A02AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE152B9D1C7A41A700FE1C90 /* Assignment.swift in Sources */,
+				FE152B9E1C7A41A700FE1C90 /* Packager.swift in Sources */,
+				FE152B9F1C7A41A700FE1C90 /* PowerAPI.swift in Sources */,
+				FE152BA01C7A41A700FE1C90 /* Section.swift in Sources */,
+				FE7DEFE01C48662A00A02AFE /* ViewController.swift in Sources */,
+				FE152BA11C7A41A700FE1C90 /* SoapClient.swift in Sources */,
+				FE152B9C1C7A41A700FE1C90 /* AEXML.swift in Sources */,
+				FE7DEFDE1C48662A00A02AFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7DEFEA1C48662A00A02AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7DEFF31C48662A00A02AFE /* PowerAPIAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7DEFF51C48662A00A02AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7DEFFE1C48662A00A02AFE /* PowerAPIAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE7DEFF01C48662A00A02AFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE7DEFD91C48662A00A02AFE /* PowerAPIApp */;
+			targetProxy = FE7DEFEF1C48662A00A02AFE /* PBXContainerItemProxy */;
+		};
+		FE7DEFFB1C48662A00A02AFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE7DEFD91C48662A00A02AFE /* PowerAPIApp */;
+			targetProxy = FE7DEFFA1C48662A00A02AFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE7DEFE11C48662A00A02AFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE7DEFE21C48662A00A02AFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE7DEFE61C48662A00A02AFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE7DEFE71C48662A00A02AFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE7DF0001C48662A00A02AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE7DF0011C48662A00A02AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE7DF0031C48662A00A02AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PowerAPIApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramicaza.PowerAPIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE7DF0041C48662A00A02AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PowerAPIApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramicaza.PowerAPIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE7DF0061C48662A00A02AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PowerAPIAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramicaza.PowerAPIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PowerAPIApp.app/PowerAPIApp";
+			};
+			name = Debug;
+		};
+		FE7DF0071C48662A00A02AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PowerAPIAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramicaza.PowerAPIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PowerAPIApp.app/PowerAPIApp";
+			};
+			name = Release;
+		};
+		FE7DF0091C48662A00A02AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PowerAPIAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramicaza.PowerAPIAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PowerAPIApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FE7DF00A1C48662A00A02AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PowerAPIAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramicaza.PowerAPIAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PowerAPIApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE7DEFD51C48662A00A02AFE /* Build configuration list for PBXProject "PowerAPIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7DF0001C48662A00A02AFE /* Debug */,
+				FE7DF0011C48662A00A02AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE7DF0021C48662A00A02AFE /* Build configuration list for PBXNativeTarget "PowerAPIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7DF0031C48662A00A02AFE /* Debug */,
+				FE7DF0041C48662A00A02AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE7DF0051C48662A00A02AFE /* Build configuration list for PBXNativeTarget "PowerAPIAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7DF0061C48662A00A02AFE /* Debug */,
+				FE7DF0071C48662A00A02AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE7DF0081C48662A00A02AFE /* Build configuration list for PBXNativeTarget "PowerAPIAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7DF0091C48662A00A02AFE /* Debug */,
+				FE7DF00A1C48662A00A02AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE7DEFD21C48662A00A02AFE /* Project object */;
+}
